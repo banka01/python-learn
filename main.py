@@ -18,5 +18,6 @@ class AA:
 
 
 a= AA()
+b=AA()
 print(a.test)
 print(a.test)
