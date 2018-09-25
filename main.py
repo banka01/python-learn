@@ -8,3 +8,15 @@ from sample.employee_details import Employee
 
 emp = Employee('banka')
 print(emp.getName())
+
+class AA:
+
+    def __getattr__(self, item):
+
+        self.__dict__[item] = 'welcom'
+
+
+
+a= AA()
+print(a.test)
+print(a.test)
